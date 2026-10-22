@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|c:\\users\\admin\\source\\repos\\ffffff\\ffffff\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|solutionrelative:ffffff\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|c:\\users\\admin\\source\\repos\\ffffff\\ffffff\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|solutionrelative:ffffff\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|c:\\users\\admin\\source\\repos\\ffffff\\ffffff\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|solutionrelative:ffffff\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|c:\\users\\admin\\source\\repos\\ffffff\\ffffff\\matrixmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2EABDF7-21A7-4B63-90AD-569C33579F66}|FFFFFF\\FFFFFF.csproj|solutionrelative:ffffff\\matrixmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatrixMath.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\MatrixMath.cs",
+              "RelativeDocumentMoniker": "FFFFFF\\MatrixMath.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\MatrixMath.cs",
+              "RelativeToolTip": "FFFFFF\\MatrixMath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T07:04:59.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FFFFFF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FFFFFF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T07:05:41.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\Calculator.cs",
+              "RelativeDocumentMoniker": "FFFFFF\\Calculator.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\Calculator.cs",
+              "RelativeToolTip": "FFFFFF\\Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T07:04:50.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FFFFFF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\FFFFFF\\FFFFFF\\MainWindow.xaml",
+              "RelativeToolTip": "FFFFFF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-22T07:03:36.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

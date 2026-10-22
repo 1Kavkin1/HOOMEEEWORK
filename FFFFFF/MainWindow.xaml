@@ -1,0 +1,80 @@
+﻿<Window x:Class="FFFFFF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Калькулятор" Height="720" Width="1100">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="16">
+            <GroupBox Header="Завдання 1. Калькулятор" Padding="8">
+                <StackPanel>
+                    <TextBox x:Name="CalculatorDisplay" Text="0" IsReadOnly="True"
+                             FontSize="24" HorizontalContentAlignment="Right" Margin="0,0,0,8" />
+                    <UniformGrid Columns="4">
+                        <Button Content="7" Click="CalculatorDigit_Click" />
+                        <Button Content="8" Click="CalculatorDigit_Click" />
+                        <Button Content="9" Click="CalculatorDigit_Click" />
+                        <Button Content="/" Click="CalculatorOperator_Click" />
+                        <Button Content="4" Click="CalculatorDigit_Click" />
+                        <Button Content="5" Click="CalculatorDigit_Click" />
+                        <Button Content="6" Click="CalculatorDigit_Click" />
+                        <Button Content="*" Click="CalculatorOperator_Click" />
+                        <Button Content="1" Click="CalculatorDigit_Click" />
+                        <Button Content="2" Click="CalculatorDigit_Click" />
+                        <Button Content="3" Click="CalculatorDigit_Click" />
+                        <Button Content="-" Click="CalculatorOperator_Click" />
+                        <Button Content="0" Click="CalculatorDigit_Click" />
+                        <Button Content="," Click="CalculatorDecimal_Click" />
+                        <Button Content="=" Click="CalculatorEquals_Click" />
+                        <Button Content="+" Click="CalculatorOperator_Click" />
+                    </UniformGrid>
+                    <Button Content="Очистити" Click="CalculatorClear_Click" Margin="0,8,0,0" />
+                </StackPanel>
+            </GroupBox>
+
+            <GroupBox Header="Завдання 2. Матричний калькулятор" Padding="8" Margin="0,12,0,0">
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="0,0,8,0">
+                            <TextBlock Text="Матриця A" FontWeight="Bold" />
+                            <WrapPanel Margin="0,4">
+                                <TextBlock Text="Рядки:" VerticalAlignment="Center" />
+                                <TextBox x:Name="RowsA" Text="3" Width="40" Margin="4,0,8,0" />
+                                <TextBlock Text="Стовпці:" VerticalAlignment="Center" />
+                                <TextBox x:Name="ColsA" Text="3" Width="40" Margin="4,0,0,0" />
+                            </WrapPanel>
+                            <UniformGrid x:Name="GridA" />
+                            <WrapPanel Margin="0,6,0,0">
+                                <Button Content="Застосувати" Tag="A" Click="ResizeMatrix_Click" />
+                                <Button Content="Випадково" Tag="A" Click="RandomMatrix_Click" />
+                                <Button Content="Одинична" Tag="A" Click="IdentityMatrix_Click" />
+                                <Button Content="Очистити" Tag="A" Click="ClearMatrix_Click" />
+                            </WrapPanel>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="8,0,0,0">
+                            <TextBlock Text="Матриця B" FontWeight="Bold" />
+                            <WrapPanel Margin="0,4">
+                                <TextBlock Text="Рядки:" VerticalAlignment="Center" />
+                                <TextBox x:Name="RowsB" Text="3" Width="40" Margin="4,0,8,0" />
+                                <TextBlock Text="Стовпці:" VerticalAlignment="Center" />
+                                <TextBox x:Name="ColsB" Text="3" Width="40" Margin="4,0,0,0" />
+                            </WrapPanel>
+                            <UniformGrid x:Name="GridB" />
+                            <WrapPanel Margin="0,6,0,0">
+                                <Button Content="Застосувати" Tag="B" Click="ResizeMatrix_Click" />
+                                <Button Content="Випадково" Tag="B" Click="RandomMatrix_Click" />
+                                <Button Content="Одинична" Tag="B" Click="IdentityMatrix_Click" />
+                                <Button Content="Очистити" Tag="B" Click="ClearMatrix_Click" />
+                            </WrapPanel>
+                        </StackPanel>
+                    </Grid>
+                    <Button Content="A + B" Click="AddMatrices_Click" Margin="0,12,0,4" />
+                    <TextBlock Text="Результат" FontWeight="Bold" />
+                    <UniformGrid x:Name="GridC" />
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
